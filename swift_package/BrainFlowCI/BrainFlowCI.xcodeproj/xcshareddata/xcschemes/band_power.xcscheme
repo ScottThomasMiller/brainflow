@@ -15,7 +15,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5F52BA6C2BC9A7A300AC74F4"
+               BlueprintIdentifier = "5F52BA842BC9A98600AC74F4"
                BuildableName = "band_power"
                BlueprintName = "band_power"
                ReferencedContainer = "container:BrainFlowCI.xcodeproj">
@@ -51,15 +51,6 @@
             ReferencedContainer = "container:BrainFlowCI.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5F52BA6C2BC9A7A300AC74F4"
-            BuildableName = "band_power"
-            BlueprintName = "band_power"
-            ReferencedContainer = "container:BrainFlowCI.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -71,21 +62,12 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5F52BA6C2BC9A7A300AC74F4"
+            BlueprintIdentifier = "5F52BA842BC9A98600AC74F4"
             BuildableName = "band_power"
             BlueprintName = "band_power"
             ReferencedContainer = "container:BrainFlowCI.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5F52BA6C2BC9A7A300AC74F4"
-            BuildableName = "band_power"
-            BlueprintName = "band_power"
-            ReferencedContainer = "container:BrainFlowCI.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

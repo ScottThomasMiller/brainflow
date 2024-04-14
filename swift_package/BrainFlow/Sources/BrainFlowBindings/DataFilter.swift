@@ -594,16 +594,24 @@ struct DataFilter {
                                  Int32(numComponents), &w, &k, &a, &s)
         try checkErrorCode("unable to calculate ICA", errorCode)
 
-        let w2D = w.reshapeRectangular(size: numComponents)
-        let k2D = k.reshapeRectangular(size: channelsToUse.count)
-        let a2D = a.reshapeRectangular(size: numComponents)
-        let s2D = s.reshapeRectangular(size: numCols)
+        let w2D = try w.reshapeRectangular(size: numComponents)
+        let k2D = try k.reshapeRectangular(size: channelsToUse.count)
+        let a2D = try a.reshapeRectangular(size: numComponents)
+        let s2D = try s.reshapeRectangular(size: numCols)
 
+        print("Shapes:")
+        print("data: \(try data.shapeOfRectangular())")
+        print("w2D: \(try w2D.shapeOfRectangular())")
+        print("k2D: \(try k2D.shapeOfRectangular())")
+        print("a2D: \(try a2D.shapeOfRectangular())")
+        print("s2D: \(try s2D.shapeOfRectangular())")
+                
         return (w2D, k2D, a2D, s2D)
     }
 }
 
-// Helpful extensions for 2D arrays of doubles:
+// Helpful extensions for arrays of doubles:
+
 extension Array where Element == [Double] {
     // Return the number of rows in the 2D array.
     func numRows() -> Int {
@@ -617,13 +625,26 @@ extension Array where Element == [Double] {
         let set = Set(numCols)
         return set.count == 1
     }
+    
+    // Return a tuple of (numRows, numCols) for the given 2D array:
+    func shapeOfRectangular() throws -> (Int, Int) {
+        guard self.isRectangular() else {
+            throw BrainFlowException("array is not rectangular", .INVALID_ARGUMENTS_ERROR)
+        }
+        let numRows = self.numRows()
+        let numCols = self[0].count
+        return (numRows, numCols)
+    }
 }
-
-// From https://stackoverflow.com/questions/48088882/how-can-split-from-string-to-array-by-chunks-of-given-size
-extension Array {
-    func reshapeRectangular(size: Int) -> [[Element]] {
-        return stride(from: 0, to: count, by: size).map {
+// Based on https://stackoverflow.com/questions/48088882/how-can-split-from-string-to-array-by-chunks-of-given-size
+extension Array where Element == Double {
+    func reshapeRectangular(size: Int) throws -> [[Element]] {
+        let result = stride(from: 0, to: count, by: size).map {
             Array(self[$0 ..< Swift.min($0 + size, count)])
         }
+        guard result.isRectangular() else {
+            throw BrainFlowException("reshape result is not rectangular", .INVALID_ARGUMENTS_ERROR)
+        }
+        return result
     }
 }
