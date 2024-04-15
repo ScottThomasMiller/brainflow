@@ -45,21 +45,12 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5F52BAB02BCA18C300AC74F4"
-            BuildableName = "band_power_all"
-            BlueprintName = "band_power_all"
-            ReferencedContainer = "container:BrainFlowCI.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
             BlueprintIdentifier = "5F466F8B2BC454A900E129A7"
             BuildableName = "brainflow_get_data"
             BlueprintName = "brainflow_get_data"
             ReferencedContainer = "container:BrainFlowCI.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
             argument = "--board_id 39"
