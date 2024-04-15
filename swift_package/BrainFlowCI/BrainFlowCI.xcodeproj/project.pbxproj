@@ -23,7 +23,6 @@
 		5F52BA452BC4D55500AC74F4 /* libBoardController.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 5F52BA3D2BC4D32F00AC74F4 /* libBoardController.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		5F52BA462BC97D2D00AC74F4 /* libDataHandler.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 5F52BA3B2BC4D32F00AC74F4 /* libDataHandler.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		5F52BA472BC97D2E00AC74F4 /* libMLModule.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 5F52BA432BC4D39600AC74F4 /* libMLModule.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		5F52BA5A2BC9803600AC74F4 /* brainflow_get_data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F52BA592BC9803600AC74F4 /* brainflow_get_data.swift */; };
 		5F52BA672BC9A3D000AC74F4 /* libsimpleble-c.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F52BA662BC9A3D000AC74F4 /* libsimpleble-c.dylib */; };
 		5F52BA682BC9A3DE00AC74F4 /* libsimpleble-c.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 5F52BA662BC9A3D000AC74F4 /* libsimpleble-c.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		5F52BA8C2BC9A98600AC74F4 /* BrainFlowConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDD640F28560C67001AA429 /* BrainFlowConstants.swift */; };
@@ -38,7 +37,6 @@
 		5F52BA982BC9A98600AC74F4 /* libBoardController.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F52BA3D2BC4D32F00AC74F4 /* libBoardController.dylib */; };
 		5F52BA9A2BC9A98600AC74F4 /* Numerics in Frameworks */ = {isa = PBXBuildFile; productRef = 5F52BA852BC9A98600AC74F4 /* Numerics */; };
 		5F52BA9B2BC9A98600AC74F4 /* BrainFlow in Frameworks */ = {isa = PBXBuildFile; productRef = 5F52BA892BC9A98600AC74F4 /* BrainFlow */; };
-		5F52BAAB2BC9AB0700AC74F4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F52BAAA2BC9AB0700AC74F4 /* main.swift */; };
 		5F52BAAC2BC9E83800AC74F4 /* libBoardController.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 5F52BA3D2BC4D32F00AC74F4 /* libBoardController.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		5F52BAAD2BC9E86700AC74F4 /* libMLModule.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 5F52BA432BC4D39600AC74F4 /* libMLModule.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		5F52BAAE2BC9E8C400AC74F4 /* libDataHandler.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 5F52BA3B2BC4D32F00AC74F4 /* libDataHandler.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
@@ -59,7 +57,6 @@
 		5F52BAC62BCA18C300AC74F4 /* libDataHandler.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 5F52BA3B2BC4D32F00AC74F4 /* libDataHandler.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		5F52BAC72BCA18C300AC74F4 /* libMLModule.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 5F52BA432BC4D39600AC74F4 /* libMLModule.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		5F52BAC82BCA18C300AC74F4 /* libBoardController.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 5F52BA3D2BC4D32F00AC74F4 /* libBoardController.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		5F52BACF2BCAA44600AC74F4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F52BACE2BCAA44600AC74F4 /* main.swift */; };
 		5F52BAD52BCAA88000AC74F4 /* BrainFlowConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDD640F28560C67001AA429 /* BrainFlowConstants.swift */; };
 		5F52BAD62BCAA88000AC74F4 /* BrainFlowInputParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDD641228560C67001AA429 /* BrainFlowInputParams.swift */; };
 		5F52BAD72BCAA88000AC74F4 /* BoardShim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDD641328560C67001AA429 /* BoardShim.swift */; };
@@ -76,7 +73,6 @@
 		5F52BAE62BCAA88000AC74F4 /* libDataHandler.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 5F52BA3B2BC4D32F00AC74F4 /* libDataHandler.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		5F52BAE72BCAA88000AC74F4 /* libMLModule.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 5F52BA432BC4D39600AC74F4 /* libMLModule.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		5F52BAE82BCAA88000AC74F4 /* libBoardController.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 5F52BA3D2BC4D32F00AC74F4 /* libBoardController.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		5F52BAEF2BCAA8AB00AC74F4 /* markers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F52BAEE2BCAA8AB00AC74F4 /* markers.swift */; };
 		5F52BAF12BCAA9E700AC74F4 /* ArgumentParser in Frameworks */ = {isa = PBXBuildFile; productRef = 5F52BAF02BCAA9E700AC74F4 /* ArgumentParser */; };
 		5F52BAF72BCAAB3400AC74F4 /* BrainFlowConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDD640F28560C67001AA429 /* BrainFlowConstants.swift */; };
 		5F52BAF82BCAAB3400AC74F4 /* BrainFlowInputParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDD641228560C67001AA429 /* BrainFlowInputParams.swift */; };
@@ -94,7 +90,6 @@
 		5F52BB082BCAAB3400AC74F4 /* libDataHandler.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 5F52BA3B2BC4D32F00AC74F4 /* libDataHandler.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		5F52BB092BCAAB3400AC74F4 /* libMLModule.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 5F52BA432BC4D39600AC74F4 /* libMLModule.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		5F52BB0A2BCAAB3400AC74F4 /* libBoardController.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 5F52BA3D2BC4D32F00AC74F4 /* libBoardController.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		5F52BB112BCAAB8000AC74F4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F52BB102BCAAB8000AC74F4 /* main.swift */; };
 		5F52BB172BCAAC7900AC74F4 /* BrainFlowConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDD640F28560C67001AA429 /* BrainFlowConstants.swift */; };
 		5F52BB182BCAAC7900AC74F4 /* BrainFlowInputParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDD641228560C67001AA429 /* BrainFlowInputParams.swift */; };
 		5F52BB192BCAAC7900AC74F4 /* BoardShim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDD641328560C67001AA429 /* BoardShim.swift */; };
@@ -111,7 +106,6 @@
 		5F52BB282BCAAC7900AC74F4 /* libDataHandler.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 5F52BA3B2BC4D32F00AC74F4 /* libDataHandler.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		5F52BB292BCAAC7900AC74F4 /* libMLModule.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 5F52BA432BC4D39600AC74F4 /* libMLModule.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		5F52BB2A2BCAAC7900AC74F4 /* libBoardController.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 5F52BA3D2BC4D32F00AC74F4 /* libBoardController.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		5F52BB332BCAACB000AC74F4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F52BB322BCAACB000AC74F4 /* main.swift */; };
 		5F52BB392BCAADF900AC74F4 /* BrainFlowConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDD640F28560C67001AA429 /* BrainFlowConstants.swift */; };
 		5F52BB3A2BCAADF900AC74F4 /* BrainFlowInputParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDD641228560C67001AA429 /* BrainFlowInputParams.swift */; };
 		5F52BB3C2BCAADF900AC74F4 /* BoardShim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDD641328560C67001AA429 /* BoardShim.swift */; };
@@ -128,7 +122,6 @@
 		5F52BB4A2BCAADF900AC74F4 /* libDataHandler.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 5F52BA3B2BC4D32F00AC74F4 /* libDataHandler.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		5F52BB4B2BCAADF900AC74F4 /* libMLModule.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 5F52BA432BC4D39600AC74F4 /* libMLModule.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		5F52BB4C2BCAADF900AC74F4 /* libBoardController.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 5F52BA3D2BC4D32F00AC74F4 /* libBoardController.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		5F52BB532BCAAE2900AC74F4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F52BB522BCAAE2900AC74F4 /* main.swift */; };
 		5F52BB592BCAAF1300AC74F4 /* BrainFlowConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDD640F28560C67001AA429 /* BrainFlowConstants.swift */; };
 		5F52BB5A2BCAAF1300AC74F4 /* BrainFlowInputParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDD641228560C67001AA429 /* BrainFlowInputParams.swift */; };
 		5F52BB5C2BCAAF1300AC74F4 /* BoardShim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDD641328560C67001AA429 /* BoardShim.swift */; };
@@ -145,7 +138,6 @@
 		5F52BB6A2BCAAF1300AC74F4 /* libDataHandler.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 5F52BA3B2BC4D32F00AC74F4 /* libDataHandler.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		5F52BB6B2BCAAF1300AC74F4 /* libMLModule.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 5F52BA432BC4D39600AC74F4 /* libMLModule.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		5F52BB6C2BCAAF1300AC74F4 /* libBoardController.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 5F52BA3D2BC4D32F00AC74F4 /* libBoardController.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		5F52BB732BCAAF3700AC74F4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F52BB722BCAAF3700AC74F4 /* main.swift */; };
 		5F52BB792BCAAFCE00AC74F4 /* BrainFlowConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDD640F28560C67001AA429 /* BrainFlowConstants.swift */; };
 		5F52BB7A2BCAAFCE00AC74F4 /* BrainFlowInputParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDD641228560C67001AA429 /* BrainFlowInputParams.swift */; };
 		5F52BB7C2BCAAFCE00AC74F4 /* BoardShim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDD641328560C67001AA429 /* BoardShim.swift */; };
@@ -162,7 +154,6 @@
 		5F52BB8A2BCAAFCE00AC74F4 /* libDataHandler.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 5F52BA3B2BC4D32F00AC74F4 /* libDataHandler.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		5F52BB8B2BCAAFCE00AC74F4 /* libMLModule.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 5F52BA432BC4D39600AC74F4 /* libMLModule.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		5F52BB8C2BCAAFCE00AC74F4 /* libBoardController.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 5F52BA3D2BC4D32F00AC74F4 /* libBoardController.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		5F52BB932BCAAFE600AC74F4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F52BB922BCAAFE600AC74F4 /* main.swift */; };
 		5F52BB9B2BCAB23700AC74F4 /* BrainFlowConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDD640F28560C67001AA429 /* BrainFlowConstants.swift */; };
 		5F52BB9C2BCAB23700AC74F4 /* BrainFlowInputParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDD641228560C67001AA429 /* BrainFlowInputParams.swift */; };
 		5F52BB9D2BCAB23700AC74F4 /* BoardShim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDD641328560C67001AA429 /* BoardShim.swift */; };
@@ -180,7 +171,6 @@
 		5F52BBAD2BCAB23700AC74F4 /* libDataHandler.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 5F52BA3B2BC4D32F00AC74F4 /* libDataHandler.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		5F52BBAE2BCAB23700AC74F4 /* libMLModule.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 5F52BA432BC4D39600AC74F4 /* libMLModule.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		5F52BBAF2BCAB23700AC74F4 /* libBoardController.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 5F52BA3D2BC4D32F00AC74F4 /* libBoardController.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		5F52BBB62BCAB28000AC74F4 /* eeg_metrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F52BBB52BCAB28000AC74F4 /* eeg_metrics.swift */; };
 		5F52BBBC2BCAB5DC00AC74F4 /* BrainFlowConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDD640F28560C67001AA429 /* BrainFlowConstants.swift */; };
 		5F52BBBD2BCAB5DC00AC74F4 /* BrainFlowInputParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDD641228560C67001AA429 /* BrainFlowInputParams.swift */; };
 		5F52BBBF2BCAB5DC00AC74F4 /* BoardShim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDD641328560C67001AA429 /* BoardShim.swift */; };
@@ -197,7 +187,6 @@
 		5F52BBCD2BCAB5DC00AC74F4 /* libDataHandler.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 5F52BA3B2BC4D32F00AC74F4 /* libDataHandler.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		5F52BBCE2BCAB5DC00AC74F4 /* libMLModule.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 5F52BA432BC4D39600AC74F4 /* libMLModule.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		5F52BBCF2BCAB5DC00AC74F4 /* libBoardController.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 5F52BA3D2BC4D32F00AC74F4 /* libBoardController.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		5F52BBD62BCAB61900AC74F4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F52BBD52BCAB61900AC74F4 /* main.swift */; };
 		5FD91A3A2BC49D9600AC3CCB /* BrainFlowConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDD640F28560C67001AA429 /* BrainFlowConstants.swift */; };
 		5FD91A3B2BC49D9600AC3CCB /* BrainFlowInputParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDD641228560C67001AA429 /* BrainFlowInputParams.swift */; };
 		5FD91A3C2BC49D9600AC3CCB /* BoardShim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDD641328560C67001AA429 /* BoardShim.swift */; };
@@ -227,6 +216,17 @@
 		5FDD644728561815001AA429 /* BrainFlowException.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDD641128560C67001AA429 /* BrainFlowException.swift */; };
 		5FDD644828561815001AA429 /* BoardDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDD641528560C67001AA429 /* BoardDescription.swift */; };
 		5FDD644928561815001AA429 /* BoardShim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDD641328560C67001AA429 /* BoardShim.swift */; };
+		5FE97CB12BCD5E180056EC80 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE97CB02BCD5E180056EC80 /* main.swift */; };
+		5FE97CB32BCD5E760056EC80 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE97CB22BCD5E760056EC80 /* main.swift */; };
+		5FE97CB52BCD5EA90056EC80 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE97CB42BCD5EA90056EC80 /* main.swift */; };
+		5FE97CB72BCD5F150056EC80 /* brainflow_get_data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE97CB62BCD5F150056EC80 /* brainflow_get_data.swift */; };
+		5FE97CB92BCD5FB90056EC80 /* eeg_metrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE97CB82BCD5FB90056EC80 /* eeg_metrics.swift */; };
+		5FE97CBB2BCD5FE30056EC80 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE97CBA2BCD5FE30056EC80 /* main.swift */; };
+		5FE97CBD2BCD60450056EC80 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE97CBC2BCD60450056EC80 /* main.swift */; };
+		5FE97CBF2BCD60670056EC80 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE97CBE2BCD60670056EC80 /* main.swift */; };
+		5FE97CC12BCD60860056EC80 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE97CC02BCD60860056EC80 /* main.swift */; };
+		5FE97CC32BCD60B30056EC80 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE97CC22BCD60B20056EC80 /* main.swift */; };
+		5FE97CC52BCD60D90056EC80 /* markers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE97CC42BCD60D90056EC80 /* markers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -510,28 +510,17 @@
 		5F52BA3C2BC4D32F00AC74F4 /* libMuseLib.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libMuseLib.dylib; path = Frameworks/libMuseLib.dylib; sourceTree = "<group>"; };
 		5F52BA3D2BC4D32F00AC74F4 /* libBoardController.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libBoardController.dylib; path = Frameworks/libBoardController.dylib; sourceTree = "<group>"; };
 		5F52BA432BC4D39600AC74F4 /* libMLModule.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libMLModule.dylib; path = Frameworks/libMLModule.dylib; sourceTree = "<group>"; };
-		5F52BA592BC9803600AC74F4 /* brainflow_get_data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brainflow_get_data.swift; sourceTree = "<group>"; };
 		5F52BA662BC9A3D000AC74F4 /* libsimpleble-c.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsimpleble-c.dylib"; path = "Frameworks/libsimpleble-c.dylib"; sourceTree = "<group>"; };
 		5F52BAA52BC9A98600AC74F4 /* band_power */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = band_power; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F52BAAA2BC9AB0700AC74F4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		5F52BACC2BCA18C300AC74F4 /* band_power_all */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = band_power_all; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F52BACE2BCAA44600AC74F4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		5F52BAEC2BCAA88000AC74F4 /* markers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = markers; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F52BAEE2BCAA8AB00AC74F4 /* markers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = markers.swift; sourceTree = "<group>"; };
 		5F52BB0E2BCAAB3400AC74F4 /* read_write_file */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = read_write_file; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F52BB102BCAAB8000AC74F4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		5F52BB2E2BCAAC7900AC74F4 /* downsampling */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = downsampling; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F52BB322BCAACB000AC74F4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		5F52BB502BCAADF900AC74F4 /* transforms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = transforms; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F52BB522BCAAE2900AC74F4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		5F52BB702BCAAF1300AC74F4 /* signal_filtering */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = signal_filtering; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F52BB722BCAAF3700AC74F4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		5F52BB902BCAAFCE00AC74F4 /* denoising */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = denoising; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F52BB922BCAAFE600AC74F4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		5F52BBB32BCAB23700AC74F4 /* eeg_metrics */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = eeg_metrics; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F52BBB52BCAB28000AC74F4 /* eeg_metrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eeg_metrics.swift; sourceTree = "<group>"; };
 		5F52BBD32BCAB5DC00AC74F4 /* ica */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ica; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F52BBD52BCAB61900AC74F4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		5FD211992BA79227000BA1CA /* ble_lib_board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ble_lib_board.h; sourceTree = "<group>"; };
 		5FD2119A2BA79227000BA1CA /* board_controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = board_controller.h; sourceTree = "<group>"; };
 		5FD2119B2BA79227000BA1CA /* board_info_getter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = board_info_getter.h; sourceTree = "<group>"; };
@@ -599,6 +588,17 @@
 		5FDD643B285617B2001AA429 /* BrainFlowTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrainFlowTests.swift; sourceTree = "<group>"; };
 		5FDD643C285617B2001AA429 /* BrainFlowCITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrainFlowCITests.swift; sourceTree = "<group>"; };
 		5FDD643D285617B2001AA429 /* DataFilterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataFilterTests.swift; sourceTree = "<group>"; };
+		5FE97CB02BCD5E180056EC80 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main.swift; path = ../../examples/tests/ica/main.swift; sourceTree = "<group>"; };
+		5FE97CB22BCD5E760056EC80 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main.swift; path = ../../examples/tests/band_power/main.swift; sourceTree = "<group>"; };
+		5FE97CB42BCD5EA90056EC80 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main.swift; path = ../../examples/tests/band_power_all/main.swift; sourceTree = "<group>"; };
+		5FE97CB62BCD5F150056EC80 /* brainflow_get_data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = brainflow_get_data.swift; path = ../../examples/tests/brainflow_get_data/brainflow_get_data.swift; sourceTree = "<group>"; };
+		5FE97CB82BCD5FB90056EC80 /* eeg_metrics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = eeg_metrics.swift; path = ../../examples/tests/eeg_metrics/eeg_metrics.swift; sourceTree = "<group>"; };
+		5FE97CBA2BCD5FE30056EC80 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main.swift; path = ../../examples/tests/denoising/main.swift; sourceTree = "<group>"; };
+		5FE97CBC2BCD60450056EC80 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main.swift; path = ../../examples/tests/signal_filtering/main.swift; sourceTree = "<group>"; };
+		5FE97CBE2BCD60670056EC80 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main.swift; path = ../../examples/tests/transforms/main.swift; sourceTree = "<group>"; };
+		5FE97CC02BCD60860056EC80 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main.swift; path = ../../examples/tests/downsampling/main.swift; sourceTree = "<group>"; };
+		5FE97CC22BCD60B20056EC80 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main.swift; path = ../../examples/tests/read_write_file/main.swift; sourceTree = "<group>"; };
+		5FE97CC42BCD60D90056EC80 /* markers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = markers.swift; path = ../../examples/tests/markers/markers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -762,7 +762,7 @@
 		5F466F8D2BC454A900E129A7 /* brainflow_get_data */ = {
 			isa = PBXGroup;
 			children = (
-				5F52BA592BC9803600AC74F4 /* brainflow_get_data.swift */,
+				5FE97CB62BCD5F150056EC80 /* brainflow_get_data.swift */,
 			);
 			path = brainflow_get_data;
 			sourceTree = "<group>";
@@ -770,7 +770,7 @@
 		5F52BAA92BC9AAF300AC74F4 /* band_power */ = {
 			isa = PBXGroup;
 			children = (
-				5F52BAAA2BC9AB0700AC74F4 /* main.swift */,
+				5FE97CB22BCD5E760056EC80 /* main.swift */,
 			);
 			path = band_power;
 			sourceTree = "<group>";
@@ -778,7 +778,7 @@
 		5F52BACD2BCAA42A00AC74F4 /* band_power_all */ = {
 			isa = PBXGroup;
 			children = (
-				5F52BACE2BCAA44600AC74F4 /* main.swift */,
+				5FE97CB42BCD5EA90056EC80 /* main.swift */,
 			);
 			path = band_power_all;
 			sourceTree = "<group>";
@@ -786,7 +786,7 @@
 		5F52BAED2BCAA89400AC74F4 /* markers */ = {
 			isa = PBXGroup;
 			children = (
-				5F52BAEE2BCAA8AB00AC74F4 /* markers.swift */,
+				5FE97CC42BCD60D90056EC80 /* markers.swift */,
 			);
 			path = markers;
 			sourceTree = "<group>";
@@ -794,7 +794,7 @@
 		5F52BB0F2BCAAB7100AC74F4 /* read_write_file */ = {
 			isa = PBXGroup;
 			children = (
-				5F52BB102BCAAB8000AC74F4 /* main.swift */,
+				5FE97CC22BCD60B20056EC80 /* main.swift */,
 			);
 			path = read_write_file;
 			sourceTree = "<group>";
@@ -802,7 +802,7 @@
 		5F52BB2F2BCAAC8800AC74F4 /* downsampling */ = {
 			isa = PBXGroup;
 			children = (
-				5F52BB322BCAACB000AC74F4 /* main.swift */,
+				5FE97CC02BCD60860056EC80 /* main.swift */,
 			);
 			path = downsampling;
 			sourceTree = "<group>";
@@ -810,7 +810,7 @@
 		5F52BB512BCAAE1800AC74F4 /* transforms */ = {
 			isa = PBXGroup;
 			children = (
-				5F52BB522BCAAE2900AC74F4 /* main.swift */,
+				5FE97CBE2BCD60670056EC80 /* main.swift */,
 			);
 			path = transforms;
 			sourceTree = "<group>";
@@ -818,7 +818,7 @@
 		5F52BB712BCAAF2B00AC74F4 /* signal_filtering */ = {
 			isa = PBXGroup;
 			children = (
-				5F52BB722BCAAF3700AC74F4 /* main.swift */,
+				5FE97CBC2BCD60450056EC80 /* main.swift */,
 			);
 			path = signal_filtering;
 			sourceTree = "<group>";
@@ -826,7 +826,7 @@
 		5F52BB912BCAAFDC00AC74F4 /* denoising */ = {
 			isa = PBXGroup;
 			children = (
-				5F52BB922BCAAFE600AC74F4 /* main.swift */,
+				5FE97CBA2BCD5FE30056EC80 /* main.swift */,
 			);
 			path = denoising;
 			sourceTree = "<group>";
@@ -834,7 +834,7 @@
 		5F52BBB42BCAB26E00AC74F4 /* eeg_metrics */ = {
 			isa = PBXGroup;
 			children = (
-				5F52BBB52BCAB28000AC74F4 /* eeg_metrics.swift */,
+				5FE97CB82BCD5FB90056EC80 /* eeg_metrics.swift */,
 			);
 			path = eeg_metrics;
 			sourceTree = "<group>";
@@ -842,7 +842,7 @@
 		5F52BBD42BCAB60E00AC74F4 /* ica */ = {
 			isa = PBXGroup;
 			children = (
-				5F52BBD52BCAB61900AC74F4 /* main.swift */,
+				5FE97CB02BCD5E180056EC80 /* main.swift */,
 			);
 			path = ica;
 			sourceTree = "<group>";
@@ -1435,9 +1435,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F52BA5A2BC9803600AC74F4 /* brainflow_get_data.swift in Sources */,
 				5FD91A3A2BC49D9600AC3CCB /* BrainFlowConstants.swift in Sources */,
 				5FD91A3B2BC49D9600AC3CCB /* BrainFlowInputParams.swift in Sources */,
+				5FE97CB72BCD5F150056EC80 /* brainflow_get_data.swift in Sources */,
 				5FD91A3C2BC49D9600AC3CCB /* BoardShim.swift in Sources */,
 				5FD91A3D2BC49D9600AC3CCB /* BoardDescription.swift in Sources */,
 				5FD91A3E2BC49D9600AC3CCB /* BrainFlowExtensions.swift in Sources */,
@@ -1453,10 +1453,10 @@
 			files = (
 				5F52BA8C2BC9A98600AC74F4 /* BrainFlowConstants.swift in Sources */,
 				5F52BA8D2BC9A98600AC74F4 /* BrainFlowInputParams.swift in Sources */,
+				5FE97CB32BCD5E760056EC80 /* main.swift in Sources */,
 				5F52BA8E2BC9A98600AC74F4 /* BoardShim.swift in Sources */,
 				5F52BA8F2BC9A98600AC74F4 /* BoardDescription.swift in Sources */,
 				5F52BA902BC9A98600AC74F4 /* BrainFlowExtensions.swift in Sources */,
-				5F52BAAB2BC9AB0700AC74F4 /* main.swift in Sources */,
 				5F52BA912BC9A98600AC74F4 /* MLModule.swift in Sources */,
 				5F52BA922BC9A98600AC74F4 /* BrainFlowException.swift in Sources */,
 				5F52BA932BC9A98600AC74F4 /* DataFilter.swift in Sources */,
@@ -1469,10 +1469,10 @@
 			files = (
 				5F52BAB52BCA18C300AC74F4 /* BrainFlowConstants.swift in Sources */,
 				5F52BAB62BCA18C300AC74F4 /* BrainFlowInputParams.swift in Sources */,
+				5FE97CB52BCD5EA90056EC80 /* main.swift in Sources */,
 				5F52BAB72BCA18C300AC74F4 /* BoardShim.swift in Sources */,
 				5F52BAB82BCA18C300AC74F4 /* BoardDescription.swift in Sources */,
 				5F52BAB92BCA18C300AC74F4 /* BrainFlowExtensions.swift in Sources */,
-				5F52BACF2BCAA44600AC74F4 /* main.swift in Sources */,
 				5F52BABB2BCA18C300AC74F4 /* MLModule.swift in Sources */,
 				5F52BABC2BCA18C300AC74F4 /* BrainFlowException.swift in Sources */,
 				5F52BABD2BCA18C300AC74F4 /* DataFilter.swift in Sources */,
@@ -1490,7 +1490,7 @@
 				5F52BAD92BCAA88000AC74F4 /* BrainFlowExtensions.swift in Sources */,
 				5F52BADB2BCAA88000AC74F4 /* MLModule.swift in Sources */,
 				5F52BADC2BCAA88000AC74F4 /* BrainFlowException.swift in Sources */,
-				5F52BAEF2BCAA8AB00AC74F4 /* markers.swift in Sources */,
+				5FE97CC52BCD60D90056EC80 /* markers.swift in Sources */,
 				5F52BADD2BCAA88000AC74F4 /* DataFilter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1501,10 +1501,10 @@
 			files = (
 				5F52BAF72BCAAB3400AC74F4 /* BrainFlowConstants.swift in Sources */,
 				5F52BAF82BCAAB3400AC74F4 /* BrainFlowInputParams.swift in Sources */,
+				5FE97CC32BCD60B30056EC80 /* main.swift in Sources */,
 				5F52BAF92BCAAB3400AC74F4 /* BoardShim.swift in Sources */,
 				5F52BAFA2BCAAB3400AC74F4 /* BoardDescription.swift in Sources */,
 				5F52BAFB2BCAAB3400AC74F4 /* BrainFlowExtensions.swift in Sources */,
-				5F52BB112BCAAB8000AC74F4 /* main.swift in Sources */,
 				5F52BAFD2BCAAB3400AC74F4 /* MLModule.swift in Sources */,
 				5F52BAFE2BCAAB3400AC74F4 /* BrainFlowException.swift in Sources */,
 				5F52BAFF2BCAAB3400AC74F4 /* DataFilter.swift in Sources */,
@@ -1517,7 +1517,7 @@
 			files = (
 				5F52BB172BCAAC7900AC74F4 /* BrainFlowConstants.swift in Sources */,
 				5F52BB182BCAAC7900AC74F4 /* BrainFlowInputParams.swift in Sources */,
-				5F52BB332BCAACB000AC74F4 /* main.swift in Sources */,
+				5FE97CC12BCD60860056EC80 /* main.swift in Sources */,
 				5F52BB192BCAAC7900AC74F4 /* BoardShim.swift in Sources */,
 				5F52BB1A2BCAAC7900AC74F4 /* BoardDescription.swift in Sources */,
 				5F52BB1B2BCAAC7900AC74F4 /* BrainFlowExtensions.swift in Sources */,
@@ -1533,7 +1533,7 @@
 			files = (
 				5F52BB392BCAADF900AC74F4 /* BrainFlowConstants.swift in Sources */,
 				5F52BB3A2BCAADF900AC74F4 /* BrainFlowInputParams.swift in Sources */,
-				5F52BB532BCAAE2900AC74F4 /* main.swift in Sources */,
+				5FE97CBF2BCD60670056EC80 /* main.swift in Sources */,
 				5F52BB3C2BCAADF900AC74F4 /* BoardShim.swift in Sources */,
 				5F52BB3D2BCAADF900AC74F4 /* BoardDescription.swift in Sources */,
 				5F52BB3E2BCAADF900AC74F4 /* BrainFlowExtensions.swift in Sources */,
@@ -1549,7 +1549,7 @@
 			files = (
 				5F52BB592BCAAF1300AC74F4 /* BrainFlowConstants.swift in Sources */,
 				5F52BB5A2BCAAF1300AC74F4 /* BrainFlowInputParams.swift in Sources */,
-				5F52BB732BCAAF3700AC74F4 /* main.swift in Sources */,
+				5FE97CBD2BCD60450056EC80 /* main.swift in Sources */,
 				5F52BB5C2BCAAF1300AC74F4 /* BoardShim.swift in Sources */,
 				5F52BB5D2BCAAF1300AC74F4 /* BoardDescription.swift in Sources */,
 				5F52BB5E2BCAAF1300AC74F4 /* BrainFlowExtensions.swift in Sources */,
@@ -1565,7 +1565,7 @@
 			files = (
 				5F52BB792BCAAFCE00AC74F4 /* BrainFlowConstants.swift in Sources */,
 				5F52BB7A2BCAAFCE00AC74F4 /* BrainFlowInputParams.swift in Sources */,
-				5F52BB932BCAAFE600AC74F4 /* main.swift in Sources */,
+				5FE97CBB2BCD5FE30056EC80 /* main.swift in Sources */,
 				5F52BB7C2BCAAFCE00AC74F4 /* BoardShim.swift in Sources */,
 				5F52BB7D2BCAAFCE00AC74F4 /* BoardDescription.swift in Sources */,
 				5F52BB7E2BCAAFCE00AC74F4 /* BrainFlowExtensions.swift in Sources */,
@@ -1587,7 +1587,7 @@
 				5F52BBA02BCAB23700AC74F4 /* MLModule.swift in Sources */,
 				5F52BBA12BCAB23700AC74F4 /* BrainFlowException.swift in Sources */,
 				5F52BBA32BCAB23700AC74F4 /* DataFilter.swift in Sources */,
-				5F52BBB62BCAB28000AC74F4 /* eeg_metrics.swift in Sources */,
+				5FE97CB92BCD5FB90056EC80 /* eeg_metrics.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1597,7 +1597,7 @@
 			files = (
 				5F52BBBC2BCAB5DC00AC74F4 /* BrainFlowConstants.swift in Sources */,
 				5F52BBBD2BCAB5DC00AC74F4 /* BrainFlowInputParams.swift in Sources */,
-				5F52BBD62BCAB61900AC74F4 /* main.swift in Sources */,
+				5FE97CB12BCD5E180056EC80 /* main.swift in Sources */,
 				5F52BBBF2BCAB5DC00AC74F4 /* BoardShim.swift in Sources */,
 				5F52BBC02BCAB5DC00AC74F4 /* BoardDescription.swift in Sources */,
 				5F52BBC12BCAB5DC00AC74F4 /* BrainFlowExtensions.swift in Sources */,
